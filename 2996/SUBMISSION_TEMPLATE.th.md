@@ -12,28 +12,28 @@
 
 ## 1. ข้อมูล OJ
 
-หมายเลข/ชื่อโจทย์ OJ: 2996
+หมายเลข/ชื่อโจทย์ OJ: 
 
 ```text
-
+2996
 ```
 
-OJ submission ID ถ้ามีการส่งแล้ว: 542686
+OJ submission ID ถ้ามีการส่งแล้ว: 
 
 ```text
-
+542686
 ```
 
-สถานะ OJ: Pass
+สถานะ OJ: 
 
 ```text
-Pass / Not Pass / Not Submit
+Pass 
 ```
 
-เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง: 15-30 minutes
+เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง: 
 
 ```text
-
+15-30 minutes
 ```
 
 เลือกหนึ่งข้อ:
@@ -73,7 +73,7 @@ More than 4 weeks
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-
+รับตัวอักษรต้องมียาว 5 ตัว ถึงจะทำผลลัพธ์ และต้องแปลงเป็นตัวเล็กและสลับตัวหลังไปหน้า หน้าไปหลัง
 ```
 
 ---
@@ -93,9 +93,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:รับข้อมูล
+Step 2:เช็กว่าเป็นตัวอักษรและมี 5 ตัวไหม
+Step 3:แปลงเป็นตัวเล็กและกลับตัวอักษร
 ```
 
 ---
@@ -115,7 +115,7 @@ Step 3:
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+เหมือนกัน เพราะมันทำงานได้
 ```
 
 ---
@@ -135,31 +135,31 @@ Step 3:
 ทำไมเลือก case นี้:
 
 ```text
-
+เพราะมีตัวอักษรตัวใหญ่
 ```
 
 Input:
 
 ```text
-
+Siwat
 ```
 
 Expected output:
 
 ```text
-
+tawis
 ```
 
 Actual output:
 
 ```text
-
+tawis
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass 
 ```
 
 ### Test Case 2
@@ -167,31 +167,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+มีอย่างอื่นที่ไม่ใช่ตัวอักษร
 ```
 
 Input:
 
 ```text
-
+t0ny
 ```
 
 Expected output:
 
 ```text
-
+no
 ```
 
 Actual output:
 
 ```text
-
+no
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass 
 ```
 
 ### Test Case 3
@@ -199,31 +199,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+มีทั้งตัวอักษรตัวใหญ่และอย่างอื่นที่ไม่ใช่ตัวอักษร
 ```
 
 Input:
 
 ```text
-
+T0NY
 ```
 
 Expected output:
 
 ```text
-
+no
 ```
 
 Actual output:
 
 ```text
-
+no
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass 
 ```
 
 ---
