@@ -59,11 +59,11 @@ Gemini
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. |  | Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
-| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |  | Briefly explain how you used or followed it |
-| I wrote my own problem understanding before asking AI for help. |  | Briefly say where you wrote it, such as `submission.md` or private note |
-| I wrote my own first plan before asking AI for help. |  | Briefly say where you wrote it |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. |  | Briefly explain |
+| I read the relevant workflow before using AI. |Yes  | Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
+| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes | Briefly explain how you used or followed it |
+| I wrote my own problem understanding before asking AI for help. |Yes  |  `submission.md`  |
+| I wrote my own first plan before asking AI for help. | Yes | VSCode |
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes | I used AI as a debugger |
 
 ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
@@ -90,7 +90,7 @@ Gemini
 My answer:
 
 ```text
-
+ผมถามว่าทำไมมันไม่ผ่านบางเทสเคส
 ```
 
 ---
@@ -111,7 +111,7 @@ My answer:
 My answer:
 
 ```text
-
+condition ที่ขาดไป
 ```
 
 ---
@@ -132,7 +132,7 @@ My answer:
 My answer:
 
 ```text
-
+ผมเขียนเพิ่มให้เงื่อนไขถูกต้อง
 ```
 
 ---
@@ -148,7 +148,7 @@ My answer:
 My answer:
 
 ```text
-
+ผมเรียนรู้ว่าบางทีโจทย์ไม่ได้บอกแต่เราต้องคิดได้เอง ว่าอะไรๆมันmakesense ไหม
 ```
 
 ---
@@ -159,8 +159,8 @@ My answer:
 
 | Statement | Yes / No |
 |---|---|
-| I wrote this reflection in my own words. |  |
-| This reflection describes my real AI use. |  |
-| I checked AI's suggestions before using them. |  |
-| I can explain my final code. |  |
-| I did not ask AI to write this reflection for me. |  |
+| I wrote this reflection in my own words. | Yes |
+| This reflection describes my real AI use. | Yes |
+| I checked AI's suggestions before using them. | Yes |
+| I can explain my final code. | Yes |
+| I did not ask AI to write this reflection for me. | Yes |
